@@ -1,0 +1,92 @@
+html {
+  background-image: url("https://cdn.pixabay.com/photo/2017/02/26/11/57/mountaineer-2100050_960_720.jpg");
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  
+  font-family: tohama;
+  font-size: 20px;
+}
+
+
+header p {
+  font-style: italic;
+  color: black;
+  text-align: center;
+  margin-top: -30px;
+
+}
+
+form {
+  width: 60vw;
+  background: linear-gradient(180deg, #000000, #9e9797, #fe1aef);
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+  padding: 2em;
+  
+}
+
+h1 {
+  margin : 1em auto;
+  text-align: center;
+  color: white;
+}
+
+#description {
+  color: white;
+}
+
+label {
+  display: block;
+}
+
+.form-control {
+  margin-bottom: -10px;
+}
+
+.form-control1 {
+  margin-bottom: 1em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  margin: 10px 0 1em 0;
+  width: 100%;
+  height: 2em;
+  vertical-align: middle;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+select {
+  width: 100%;
+  height: 2em;
+}
+
+
+textarea {
+  width: 100%;
+  height: 6em;
+  margin-bottom: -5px;
+}
+
+button {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #000000;
+  border-color: #000000;
+  color: white;
+  min-width: 300px;
+}
